@@ -3,7 +3,7 @@
 .PHONY: sbt
 
 sbt-new-project:  ## New sbt project with Giter8
-	sbt new foundweekends/giter8.g8
+	sbt new scala/scala-seed.g8 .
 
 
 ##@ Help
