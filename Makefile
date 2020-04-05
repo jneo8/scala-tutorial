@@ -1,3 +1,11 @@
+##@ practice
+
+.PHONY: practice
+
+sbt-run-practice:  ## Run practice code
+	cd practice && sbt run
+
+
 ##@ sbt
 
 .PHONY: sbt
