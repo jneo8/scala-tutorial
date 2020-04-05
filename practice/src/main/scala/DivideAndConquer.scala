@@ -3,8 +3,7 @@ package fundamental_algorithms
 
 object MaxConSubArrayApp {
   def main(args: Array[String]): Unit = {
-    // val stockPriceDiff = Vector(1, -2, 5, 6, -1, 4, 9, -3, 2, 5)
-    val stockPriceDiff = Vector(1, 1)
+    val stockPriceDiff = Vector(1, -2, 5, 6, -1, 4, 9, -3, 2, 5)
     println(findContSubArrayMax(stockPriceDiff))
   }
 
