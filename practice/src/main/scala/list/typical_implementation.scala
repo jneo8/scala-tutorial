@@ -61,11 +61,14 @@ object TypicalImplementation {
     val engineers = List(eng1, eng2)
     val doctors = List(doc1, doc2)
 
+    // This is followed by creating a list for each category.
+    // Those two lists are then combined using two different methods—using the operator
+    // ::: and List. Note that one forms a list, while the other forms a list of lists
     val employees = engineers ::: doctors
     val emp2 = List(engineers, doctors)
 
-    val emp2Size = emp2.flatten
-    println(f"emp2Size: $emp2Size")
+    // val emp2Size = emp2.flatten
+    // println(f"emp2Size: $emp2Size")
 
     val engineersSize = engineers.size
     println(f"engineersSize: $engineersSize")
